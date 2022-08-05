@@ -1,0 +1,52 @@
+{
+  "name": "GlobalUrbanEsensial",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.14",
+    "@react-native-community/toolbar-android": "^0.2.1",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "axios": "^0.20.0",
+    "native-base": "^2.13.12",
+    "react": "17.0.2",
+    "react-native": "0.66.1",
+    "react-native-gesture-handler": "^1.7.0",
+    "react-native-image-picker": "^4.8.4",
+    "react-native-image-slider-box": "^1.1.24",
+    "react-native-linear-gradient": "^2.6.2",
+    "react-native-modal": "^13.0.1",
+    "react-native-pager-view": "^5.4.25",
+    "react-native-qrcode-svg": "^6.1.2",
+    "react-native-ratings": "^8.1.0",
+    "react-native-reanimated": "^1.9.0",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^2.9.0",
+    "react-native-toast-message": "^2.1.5",
+    "react-redux": "^7.2.0",
+    "redux": "^4.1.2",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/runtime": "^7.18.9",
+    "@react-native-community/eslint-config": "^3.1.0",
+    "babel-jest": "^28.1.3",
+    "eslint": "^8.21.0",
+    "jest": "^28.1.3",
+    "metro-react-native-babel-preset": "^0.72.0",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
